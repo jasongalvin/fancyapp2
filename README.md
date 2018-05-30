@@ -1,6 +1,7 @@
-Clone this repo, then run these commands:
+My notes/steps for getting the app running from this excellent tutorial:  https://hovancik.net/blog/2017/07/02/creating-new-rails-and-vue-js-app-with-docker/
 
-docker-compose build
+
+Clone this repo, then run these commands:
 
 docker-compose run web rails new . --force --database=postgresql --webpack=vue
 
